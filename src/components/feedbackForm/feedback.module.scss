@@ -1,0 +1,228 @@
+.feedbackForm {
+  position: relative;
+  width: 1176px;
+  height: 412px;
+  background: #FCFDFF;
+  box-shadow: inset 2px 5px 20px rgba(113, 154, 218, 0.35);
+  filter: drop-shadow(2px 3px 4px rgba(81, 139, 198, 0.25));
+  border-radius: 30px;
+  margin: auto auto;
+  top: 70px;
+  text-align: center;
+  h1 {
+    color: #5483B3;
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top: 40px;
+  }
+  p {
+    position: absolute;
+    top: 102px;
+    text-align: left;
+    width: 480px;
+    height: 192px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5483B3;
+    margin-left: 624px;
+  }
+  button {
+    position: absolute;
+    top: 326px;
+    left: 624px;
+    width: 469px;
+    height: 62px;
+    border-radius: 20px;
+    background: #5483B3;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+  }
+  button:hover {
+    background: #073577;
+  }
+  button:active {
+    background: #052659;
+  }
+}
+.form {
+  margin-top: 50px;
+  input {
+    margin-left: 38px;
+    border: none;
+    width: 550px;
+    height: 52px;
+    background: transparent;
+    border-bottom: 1px solid #5483B3;
+    color: #052659;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    flex-flow: column wrap;
+    background: none;
+  }
+  ::-webkit-input-placeholder {
+    color: #C5D4E7;
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 1280px) {
+  .feedbackForm {
+    width: 1140px;
+    height: 432px;
+    top: 68px;
+    p {
+      top: 118px;
+      width: 520px;
+      font-size: 20px;
+      margin-left: 590px;
+    }
+    button {
+      top: 326px;
+      left: 590px;
+      width: 520px;
+      font-size: 24px;
+    }
+  }
+  .form {
+    margin-top: 50px;
+    input {
+      width: 520px;
+      height: 63px;
+    }
+  }
+}
+@media (max-width: 1256px) {
+  .feedbackForm {
+    width: 848px;
+    p {
+      top: 120px;
+      width: 354px;
+      font-size: 18px;
+      margin-left: 454px;
+    }
+    button {
+      top: 340px;
+      left: 454px;
+      width: 354px;
+      font-size: 22px;
+    }
+  }
+  .form {
+    margin-top: 50px;
+    input {
+      width: 354px;
+      height: 63px;
+    }
+  }
+}
+@media (max-width: 990px) {
+  .feedbackForm {
+    width: 560px;
+    height: 526px;
+    p {
+      top: 94px;
+      width: 480px;
+      height: 146px;
+      font-size: 18px;
+      margin-left: 40px;
+    }
+    h1 {
+      font-size: 34px;
+      left: -16px;
+    }
+    button {
+      top: 430px;
+      left: 40px;
+      width: 480px;
+      height: 56px;
+      font-size: 20px;
+    }
+  }
+  .form {
+    margin-top: 196px;
+    input {
+      width: 480px;
+      height: 44px;
+    }
+  }
+}
+@media (max-width: 680px) {
+  .feedbackForm {
+    width: 330px;
+    height: 448px;
+    p {
+      top: 90px;
+      width: 250px;
+      height: 140px;
+      font-size: 12px;
+      margin-left: 40px;
+    }
+    h1 {
+      text-align: left;
+      width: 245px;
+      font-size: 24px;
+      top: 20px;
+      left: 40px;
+    }
+    button {
+      top: 382px;
+      left: 40px;
+      width: 250px;
+      height: 36px;
+      font-size: 16px;
+    }
+  }
+  .form {
+    margin-top: 130px;
+    input {
+      font-size: 14px;
+      width: 250px;
+      height: 34px;
+    }
+    ::-webkit-input-placeholder {
+      color: #C5D4E7;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .feedbackForm {
+    width: 290px;
+    p {
+      top: 90px;
+      width: 230px;
+      height: 136px;
+      margin-left: 30px;
+    }
+    h1 {
+      text-align: left;
+      width: 230px;
+      font-size: 22px;
+      top: 20px;
+      left: 30px;
+    }
+    button {
+      left: 30px;
+      width: 230px;
+    }
+  }
+  .form {
+    margin-top: 170px;
+    input {
+      font-size: 14px;
+      width: 230px;
+      height: 38px;
+      margin-left: 30px;
+    }
+    ::-webkit-input-placeholder {
+      color: #C5D4E7;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}

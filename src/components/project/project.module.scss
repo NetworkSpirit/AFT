@@ -1,0 +1,341 @@
+.project {
+  display: inline-block;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 46px;
+  left: 78px;
+  width: 582px;
+  height: 778px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 5px 6px 0 rgba(63, 154, 154, 0.2);
+  h1 {
+    font-weight: 400;
+    margin-left: 58px;
+    margin-top: 40px;
+    color: #6176AB;
+    font-size: 38px;
+  }
+  p{
+    font-weight: 600;
+    width: 471px;
+    height: 182px;
+    margin-left: 58px;
+    margin-top: 30px;
+    color: #052659;
+    font-size: 18px;
+  }
+  .imgProject {
+    width: 482px;
+    height: 326px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  img {
+    margin-left: 56px;
+  }
+  .dildo {
+    margin-top: 50px;
+    color: #5483B3;
+    width: 168px;
+    height: 32px;
+    button {
+      background: none;
+      border: none;
+      font-weight: 400;
+      font-size: 22px;
+      margin-left: 12px;
+      position: absolute;
+    }
+  }
+}
+@media screen and (max-width: 1280px) {
+  .project {
+    margin-left: 20px;
+    margin-top: 20px;
+    left: 78px;
+    width: 562px;
+    height: 736px;
+    h1 {
+      margin-top: 30px;
+      margin-left: 40px;
+      font-size: 32px;
+    }
+    p{
+      font-weight: 600;
+      width: 482px;
+      height: 124px;
+      margin-left: 40px;
+      margin-top: 20px;
+    }
+    .moreInfo {
+      position: absolute;
+      margin-left: 40px;
+      top: 558px;
+    }
+    .imgProject {
+      width: 356px;
+      height: 274px;
+      margin-top: -20px;
+      margin-left: 30px;
+    }
+    .dildo {
+      margin-top: 50px;
+      color: #5483B3;
+      width: 168px;
+      height: 32px;
+      button {
+        background: none;
+        border: none;
+        font-weight: 400;
+        font-size: 22px;
+        position: absolute;
+        left: 74px;
+        top: 558px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1256px) {
+  .project {
+    margin-left: 16px;
+    margin-top: 16px;
+    left: 78px;
+    width: 416px;
+    height: 618px;
+    h1 {
+      margin-left: 30px;
+      font-size: 30px;
+    }
+    p{
+      font-size: 16px;
+      width: 356px;
+      height: 176px;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    img {
+      width: 356px;
+      height: 274px;
+      margin-left: 30px;
+    }
+    .dildo {
+      margin-top: 50px;
+      color: #5483B3;
+      width: 168px;
+      height: 32px;
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  .project {
+    margin-left: 16px;
+    margin-top: 50px;
+    left: 78px;
+    width: 560px;
+    height: 580px;
+    h1 {
+      margin-left: 40px;
+      margin-top: 40px;
+      font-size: 34px;
+    }
+    p{
+      font-size: 16px;
+      width: 480px;
+      height: 118px;
+      margin-left: 40px;
+      margin-top: 16px;
+    }
+    img {
+      width: 480px;
+      height: 260px;
+      margin-left: 40px;
+    }
+    .dildo {
+      margin-top: 50px;
+      color: #5483B3;
+      width: 168px;
+      height: 32px;
+      img {
+        width: 18px;
+        height: 18px;
+      }
+      button {
+        background: none;
+        border: none;
+        font-size: 18px;
+        position: absolute;
+        left: 68px;
+        top: 518px;
+      }
+    }
+    .moreInfo {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      margin-left: 40px;
+      top: 522px;
+    }
+  }
+}
+@media screen and (max-width: 680px) {
+  .project {
+    margin-top: 50px;
+    left: 50px;
+
+    width: 330px;
+    height: 432px;
+    h1 {
+      margin-left: 30px;
+      margin-top: 30px;
+      font-size: 24px;
+    }
+    p{
+      font-size: 12px;
+      width: 270px;
+      height: 111px;
+      margin-left: 30px;
+      margin-top: -10px;
+    }
+    .imgProject {
+      width: 270px;
+      height: 150px;
+      margin-top: 38px;
+      margin-left: 30px;
+    }
+    .dildo {
+      margin-top: 50px;
+      color: #5483B3;
+      width: 168px;
+      height: 32px;
+      img {
+        width: 14px;
+        height: 14px;
+      }
+      button {
+        background: none;
+        border: none;
+        font-size: 14px;
+        left: 48px;
+        top: 395px;
+      }
+    }
+    .moreInfo {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      margin-left: 40px;
+      top: 398px;
+    }
+  }
+}
+@media screen and (max-width: 490px) {
+  .project {
+    margin-top: 20px;
+    display: block;
+    width: 290px;
+    h1 {
+      position: relative;
+      top: 20px;
+      margin-left: 30px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    p{
+      position: relative;
+      top: 10px;
+      font-weight: 400;
+      font-size: 12px;
+      width: 230px;
+      height: 130px;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    .imgProject {
+      top: 16px;
+      position: relative;
+      width: 230px;
+      height: 150px;
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+    .dildo {
+      margin-top: 30px;
+      color: #5483B3;
+      width: 168px;
+      height: 32px;
+      img {
+        width: 14px;
+        height: 14px;
+      }
+      button {
+        background: none;
+        border: none;
+        font-size: 14px;
+        left: 48px;
+        top: 395px;
+      }
+    }
+    .moreInfo {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      margin-left: 40px;
+      top: 398px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .project {
+    margin-top: 20px;
+    left: 0;
+    width: 290px;
+    h1 {
+      margin-left: 30px;
+      margin-top: 40px;
+      font-size: 16px;
+    }
+    p{
+      font-weight: 400;
+      font-size: 12px;
+      width: 230px;
+      height: 130px;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    .imgProject {
+      width: 230px;
+      height: 150px;
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+    .dildo {
+      margin-top: 30px;
+      color: #5483B3;
+      width: 168px;
+      height: 32px;
+      img {
+        width: 14px;
+        height: 14px;
+      }
+      button {
+        background: none;
+        border: none;
+        font-size: 14px;
+        left: 48px;
+        top: 395px;
+      }
+    }
+    .moreInfo {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      margin-left: 40px;
+      top: 398px;
+    }
+  }
+}

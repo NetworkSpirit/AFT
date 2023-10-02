@@ -1,0 +1,222 @@
+.modal {
+  display: none;
+  width: 1160px;
+  height: 1532px;
+  box-shadow: inset 5px 5px 20px rgba(113, 154, 218, 0.35);
+  filter: drop-shadow(7px 4px 4px rgba(81, 139, 198, 0.25));
+  background-color: #FCFDFF;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.1ms;
+  border-radius: 30px;
+}
+.modal.active {
+  display: block;
+  position: absolute;
+  opacity: 1;
+  pointer-events: all;
+  top: 670px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  h1 {
+    margin: 70px 0 0 50px;
+    color: #3069A3;
+    font-weight: 600;
+    font-size: 36px;
+  }
+  p {
+    width: 448px;
+    height: 448px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #5483B3;
+    margin: 30px 0 0 50px;
+  }
+  img {
+    position: absolute;
+    top: 70px;
+    left: 535px;
+  }
+  .close {
+    position: absolute;
+    left: 1089px;
+    top: 50px;
+  }
+}
+.orderProject {
+  width: 450px;
+  height: 62px;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #5483B3;
+  border-radius: 20px;
+  margin: 30px 0 0 50px;
+  border: none;
+  filter: drop-shadow(0px 4px 6px rgba(5, 38, 89, 0.25));
+  a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+}
+.modalContent {
+
+}
+@media screen and (max-width: 1256px) {
+  .modal {
+    width: 848px;
+    height: 1152px;
+  }
+  .modal.active {
+    top: 849px;
+    h1 {
+      margin: 70px 0 0 30px;
+      font-size: 34px;
+    }
+    p {
+      width: 788px;
+      height: 250px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #5483B3;
+      margin: 30px 0 0 30px;
+    }
+    .icon {
+      display: none;
+    }
+    .close {
+      position: absolute;
+      left: 787px;
+      top: 40px;
+    }
+  }
+  .orderProject {
+    width: 333px;
+    height: 54px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #5483B3;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin: 30px 0 0 30px;
+  }
+  .modalContent {
+
+  }
+
+}
+@media screen and (max-width: 990px) {
+  .modal {
+    width: 608px;
+    height: 1104px;
+  }
+  .modal.active {
+    top: 552px;
+    h1 {
+      margin: 50px 0 0 30px;
+      font-size: 32px;
+    }
+    p {
+      width: 548px;
+      height: 284px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #5483B3;
+      margin: 30px 0 0 30px;
+    }
+    .icon {
+      display: none;
+    }
+    .close {
+      position: absolute;
+      left: 557px;
+      top: 30px;
+    }
+  }
+  .orderProject {
+    width: 333px;
+    height: 54px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px 0 0 30px;
+  }
+  .modalContent {
+
+  }
+
+}
+@media screen and (max-width: 680px) {
+  .modal {
+    width: 340px;
+    height: 896px;
+  }
+  .modal.active {
+    top: 734px;
+    h1 {
+      margin: 40px 0 0 20px;
+      font-size: 24px;
+    }
+    p {
+      width: 300px;
+      height: 340px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #5483B3;
+      margin: 10px 0 0 20px;
+    }
+    .icon {
+      display: none;
+    }
+    .close {
+      position: absolute;
+      left: 302px;
+      top: 22px;
+    }
+  }
+  .orderProject {
+    width: 301px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0 0 20px;
+  }
+  .modalContent {
+
+  }
+
+}
+@media screen and (max-width: 440px) {
+  .modal {
+    width: 290px;
+    height: 858px;
+  }
+  .modal.active {
+    top: 620px;
+    h1 {
+      margin: 20px 0 0 20px;
+      font-size: 18px;
+    }
+    p {
+      width: 250px;
+      height: 331px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #5483B3;
+      margin: 20px 0 0 20px;
+    }
+    .icon {
+      display: none;
+    }
+    .close {
+      position: absolute;
+      left: 240px;
+      top: 22px;
+    }
+  }
+  .orderProject {
+    width: 249px;
+    margin: 30px 0 0 20px;
+  }
+}

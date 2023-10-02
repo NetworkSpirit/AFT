@@ -1,0 +1,511 @@
+.Carousel {
+  width: 1110px;
+  height: 568px;
+  position: relative;
+  margin: 30px 0 0 50px;
+  &__slide {
+    overflow: hidden;
+    width: 100%;
+    height: 568px;
+    display: flex;
+  }
+  &__item {
+    min-width: 380px;
+    height: 568px;
+    background-color: rgba(84, 131, 179, 0.65);
+    margin-left: 20px;
+    border-radius: 30px;
+    filter: drop-shadow(1px 5px 6px rgba(97, 118, 171, 0.2));
+  }
+  &__itemActive {
+    border-radius: 30px;
+    min-width: 380px;
+    height: 568px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(1px 5px 6px rgba(148, 194, 231, 0.2));
+    margin-left: 20px;
+  }
+  &__button {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: #5483B3;
+    color: #FFFFFF;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    &_prev {
+
+      left: 0;
+      top: 38%;
+
+    }
+    &_next {
+      right: 24px;
+      top: 38%;
+    }
+  }
+  .moreName {
+    position: relative;
+    background: none;
+    border: none;
+  }
+}
+#nameActive {
+  position: relative;
+  right: 20px;
+  top: -46px;
+  color: #FCFDFF;
+  font-size: 32px;
+}
+#name {
+  right: 20px;
+  top: -46px;
+  position: relative;
+  color: #94C2E7;
+}
+#pActive {
+  width: 320px;
+  height: 300px;
+  position: relative;
+  top: -50px;
+  right: 20px;
+  color: #FCFDFF;
+}
+#p {
+  position: relative;
+  color: #052659;
+  width: 320px;
+  height: 300px;
+  top: -50px;
+  right: 20px;
+}
+.contentBtn {
+  position: absolute;
+  left: 500px;
+}
+.btn {
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: none;
+  background-color: #95C3E8;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.btnActive {
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: none;
+  background-color: #052659;
+  margin-left: 10px;
+}
+.moreActive {
+  position: relative;
+  top: 60px;
+  z-index: 1;
+  left: 30px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #5483B3;
+  background-color: #FFFFFF;
+  border: none;
+}
+.moreName {
+  position: relative;
+  top: 60px;
+  left: 40px;
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1256px) {
+  .Carousel {
+    width: 812px;
+    height: 408px;
+    margin: 30px 0 0 36px;
+    &__slide {
+      width: 100%;
+      height: 408px;
+      display: flex;
+      overflow: hidden;
+    }
+    &__item {
+      min-width: 330px;
+      height: 408px;
+      margin-left: 17px;
+    }
+    &__itemActive {
+      min-width: 330px;
+      height: 408px;
+      margin-left: 17px;
+    }
+    &__button {
+      &_prev {
+        left: 0;
+        top: 38%;
+
+      }
+      &_next {
+        right: 24px;
+        top: 38%;
+      }
+    }
+  }
+  #nameActive {
+    position: relative;
+    right: 0;
+    top: -46px;
+    color: #FCFDFF;
+    font-size: 28px;
+  }
+  #name {
+    right: 0;
+    top: -46px;
+    position: relative;
+    font-size: 28px;
+    color: #94C2E7;
+  }
+  #pActive {
+    overflow: hidden;
+    width: 280px;
+    height: 240px;
+    position: relative;
+    top: -60px;
+    right: 0;
+    font-size: 18px;
+    color: #FCFDFF;
+  }
+  #p {
+    overflow: hidden;
+    position: relative;
+    color: #052659;
+    width: 280px;
+    height: 240px;
+    top: -60px;
+    right: 0;
+  }
+  .contentBtn {
+    left: 340px;
+  }
+  .btn {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .btnActive {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+  }
+  .moreActive {
+    position: relative;
+    top: -30px;
+    left: 30px;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #5483B3;
+    background-color: #FFFFFF;
+    border: none;
+  }
+  .moreName {
+    position: relative;
+    top: -30px;
+    left: 40px;
+    color: #FFFFFF;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .Carousel {
+    width: 572px;
+    height: 374px;
+
+    &__slide {
+      width: 100%;
+      height: 374px;
+      display: flex;
+      overflow: hidden;
+    }
+
+    &__item {
+      min-width: 330px;
+      height: 374px;
+      margin-left: 17px;
+    }
+
+    &__itemActive {
+      min-width: 330px;
+      height: 374px;
+      margin-left: 17px;
+    }
+
+    &__button {
+      &_prev {
+        left: 0;
+        top: 38%;
+      }
+
+      &_next {
+        right: 24px;
+        top: 38%;
+      }
+    }
+  }
+  #nameActive {
+    position: relative;
+    right: 0;
+    top: -30px;
+    color: #FCFDFF;
+    font-size: 26px;
+  }
+  #name {
+    right: 0;
+    top: -30px;
+    position: relative;
+    color: #94C2E7;
+    font-size: 26px;
+  }
+  #pActive {
+    overflow: hidden;
+    width: 234px;
+    height: 201px;
+    position: relative;
+    top: -50px;
+    right: 0;
+    color: #FCFDFF;
+    font-size: 16px;
+  }
+  #p {
+    position: relative;
+    color: #052659;
+    width: 234px;
+    height: 201px;
+    top: -50px;
+    right: 0;
+    font-size: 16px;
+  }
+  .contentBtn {
+    left: 200px;
+  }
+  .btn {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .btnActive {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+  }
+  //TODO edit text for item block in name-project and info-project
+}
+@media screen and (max-width: 680px) {
+  .more {
+    position: relative;
+    top: 0;
+    left: 30px;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5483B3;
+    border: none;
+  }
+  .moreActive {
+    position: relative;
+    z-index: 1;
+    top: -10px;
+    left: 18px;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 900;
+    color: #5483B3;
+    background-color: #FFFFFF;
+    border: none;
+  }
+  .Carousel {
+    width: 324px;
+    height: 240px;
+    margin: 19px 0 0 16px;
+
+    &__slide {
+      width: 100%;
+      height: 240px;
+      display: flex;
+      overflow: hidden;
+    }
+
+    &__item {
+      min-width: 232px;
+      height: 240px;
+      margin-left: 8px;
+    }
+
+    &__itemActive {
+      min-width: 232px;
+      height: 240px;
+      margin-left: 8px;
+    }
+
+    &__button {
+      width: 36px;
+      height: 36px;
+      &_prev {
+        left: 0;
+        top: 38%;
+      }
+
+      &_next {
+        right: 24px;
+        top: 38%;
+      }
+    }
+  }
+  #nameActive {
+    right: -4px;
+    top: -24px;
+    font-size: 16px;
+  }
+  #name {
+    right: -4px;
+    top: -24px;
+    font-size: 16px;
+  }
+  #pActive {
+    overflow: hidden;
+    width: 192px;
+    height: 136px;
+    position: relative;
+    top: -30px;
+    right: -4px;
+    color: #FCFDFF;
+    font-size: 12px;
+  }
+  #p {
+    position: relative;
+    color: #052659;
+    width: 192px;
+    height: 136px;
+    top: -30px;
+    right: -4px;
+    font-size: 12px;
+  }
+  .contentBtn {
+    left: 100px;
+  }
+  .btn {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .btnActive {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+  }
+  .moreName {
+    position: relative;
+    top: -6px;
+    left: 30px;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .Carousel {
+    width: 274px;
+    margin: 16px 0 0 16px;
+
+    &__slide {
+      width: 100%;
+      height: 240px;
+      display: flex;
+      overflow: hidden;
+    }
+    &__item {
+      min-width: 232px;
+      height: 240px;
+      margin-left: 8px;
+    }
+
+    &__itemActive {
+      min-width: 232px;
+      height: 240px;
+      margin-left: 8px;
+    }
+
+    &__button {
+      width: 36px;
+      height: 36px;
+      &_prev {
+        left: 0;
+        top: 38%;
+      }
+
+      &_next {
+        right: 0;
+        top: 38%;
+      }
+    }
+  }
+  #nameActive {
+    position: relative;
+    right: -4px;
+    top: 0;
+    color: #FCFDFF;
+    font-size: 16px;
+  }
+  #name {
+    right: -4px;
+    top: 0;
+    position: relative;
+    color: #94C2E7;
+    font-size: 16px;
+  }
+  #pActive {
+    width: 192px;
+    height: 136px;
+    position: relative;
+    top: -16px;
+    right: -4px;
+    color: #FCFDFF;
+    font-size: 12px;
+  }
+  .contentBtn {
+    left: 80px;
+  }
+  .btnActive {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+  }
+  .moreName {
+    left: 20px;
+    top: -8px;
+  }
+  .moreActive {
+    font-size: 8px;
+    text-align: left;
+  }
+}

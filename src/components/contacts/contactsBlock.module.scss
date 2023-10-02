@@ -1,0 +1,337 @@
+.contentBlock {
+  position: relative;
+  top: 140px;
+  width: 1176px;
+  height: 554px;
+  background-color: #FCFDFF;
+  filter: drop-shadow(2px 3px 4px rgba(81, 139, 198, 0.25));
+  box-shadow: inset 2px 5px 20px rgba(113, 154, 218, 0.35);
+  margin: auto auto;
+  border-radius: 30px;
+  h1 {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #5483B3;
+  }
+}
+.content {
+  width: 646px;
+  height: 414px;
+  border-radius: 30px;
+  position: absolute;
+  top: 90px;
+  left: 490px;
+  ymaps {
+    border-radius: 30px;
+  }
+}
+.socialMedia {
+  position: relative;
+  left: 26px;
+  top: 400px;
+  padding-left: 20px;
+}
+.contacts {
+  position: absolute;
+  top: 203px;
+  width: 372px;
+  height: 208px;
+  text {
+    color: #7DA0CA;
+    font-size: 18px;
+  }
+  a {
+    color: #7DA0CA;
+  }
+  img {
+    margin-left: 40px;
+  }
+  .cityText {
+    width: 302px;
+    position: absolute;
+    left: 110px;
+  }
+  .imgTime {
+    position: absolute;
+    top: 82px;
+    left: 0;
+  }
+  .timeText {
+    position: absolute;
+    top: 82px;
+    left: 110px;
+    width: 150px;
+    height: 48px;
+  }
+  .imgPhone {
+    position: absolute;
+    top: 160px;
+    left: 0;
+  }
+  .textPhone {
+    position: absolute;
+    top: 160px;
+    left: 110px;
+    width: 211px;
+    height: 48px;
+  }
+}
+@media (max-width: 1280px) {
+  .contentBlock {
+    position: relative;
+    top: 140px;
+    width: 1140px;
+    height: 554px;
+    h1 {
+      position: relative;
+      top: 40px;
+      left: 50px;
+    }
+  }
+  .content {
+    width: 626px;
+    height: 416px;
+    top: 108px;
+    left: 480px;
+    ymaps {
+      border-radius: 30px;
+    }
+  }
+  .socialMedia {
+    position: relative;
+    left: 30px;
+    top: 400px;
+    padding-left: 20px;
+  }
+  .contacts {
+    top: 212px;
+    img {
+      margin-left: 50px;
+    }
+    .cityText {
+      left: 100px;
+    }
+    .imgTime {
+      top: 82px;
+      left: 0;
+    }
+    .timeText {
+      left: 100px;
+    }
+    .textPhone {
+      left: 100px;
+    }
+  }
+}
+@media (max-width: 1256px) {
+  .contentBlock {
+    top: 140px;
+    width: 848px;
+    height: 472px;
+    h1 {
+      top: 40px;
+      left: 50px;
+    }
+    .content {
+      top: 120px;
+      left: 391px;
+      width: 417px;
+      height: 312px;
+    }
+
+    .socialMedia {
+      position: relative;
+      left: 30px;
+      top: 320px;
+      padding-left: 20px;
+    }
+
+    .contacts {
+      top: 156px;
+    }
+  }
+}
+@media (max-width: 990px) {
+  .contentBlock {
+    top: 140px;
+    width: 560px;
+    height: 684px;
+    h1 {
+      top: 40px;
+      left: 50px;
+      font-size: 34px;
+    }
+    .content {
+      top: 374px;
+      left: 40px;
+      width: 480px;
+      height: 270px;
+    }
+
+    .socialMedia {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      left: 44px;
+      top: 260px;
+      padding-left: 6px;
+    }
+
+    .contacts {
+      top: 94px;
+      text {
+        color: #7DA0CA;
+        font-size: 20px;
+      }
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+@media (max-width: 680px) {
+  .contentBlock {
+    top: 140px;
+    width: 330px;
+    height: 548px;
+    h1 {
+      top: 30px;
+      left: 40px;
+      font-size: 24px;
+    }
+    .content {
+      top: 310px;
+      left: 40px;
+      width: 250px;
+      height: 198px;
+
+    }
+
+    .socialMedia {
+      width: 26px;
+      height: 26px;
+      position: relative;
+      left: 40px;
+      top: 200px;
+      padding-left: 6px;
+    }
+    .contacts {
+      top: 72px;
+      width: 234px;
+      height: 218px;
+      text {
+        color: #7DA0CA;
+        font-size: 12px;
+      }
+      img {
+        margin-left: 40px;
+      }
+      .cityText {
+        width: 196px;
+        position: absolute;
+        left: 78px;
+      }
+      .imgTime {
+        position: absolute;
+        top: 56px;
+        left: 0;
+      }
+      .timeText {
+        position: absolute;
+        top: 56px;
+        left: 78px;
+        width: 100px;
+        height: 34px;
+      }
+      .imgPhone {
+        position: absolute;
+        top: 112px;
+        left: 0;
+      }
+      .textPhone {
+        position: absolute;
+        top: 112px;
+        left: 78px;
+        width: 126px;
+        height: 36px;
+      }
+    }
+  }
+}
+@media (max-width: 440px) {
+.contentBlock {
+  top: 140px;
+  width: 290px;
+  height: 522px;
+
+  h1 {
+    top: 30px;
+    left: 30px;
+    font-size: 22px;
+  }
+
+  .content {
+    top: 294px;
+    left: 30px;
+    width: 230px;
+    height: 198px;
+
+  }
+
+  .socialMedia {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    left: 30px;
+    top: 200px;
+    padding-left: 6px;
+  }
+
+  .contacts {
+    width: 232px;
+    height: 212px;
+
+    img {
+      margin-left: 30px;
+    }
+
+    .cityText {
+      width: 196px;
+      height: 50px;
+      left: 64px;
+    }
+
+    .imgTime {
+      position: absolute;
+      top: 56px;
+      left: 0;
+    }
+
+    .timeText {
+      position: absolute;
+      top: 56px;
+      left: 64px;
+      width: 100px;
+      height: 34px;
+    }
+
+    .imgPhone {
+      position: absolute;
+      top: 112px;
+      left: 0;
+    }
+
+    .textPhone {
+      position: absolute;
+      top: 112px;
+      left: 64px;
+      width: 126px;
+      height: 36px;
+    }
+  }
+}
+}
